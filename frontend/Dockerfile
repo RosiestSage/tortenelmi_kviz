@@ -1,4 +1,4 @@
-FROM nginx
+FROM node AS build
 
 WORKDIR /app
 
