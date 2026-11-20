@@ -28,5 +28,5 @@ jobs:
         VERSION=$(date +%s)
         docker build ./backend -t ghcr.io/rosiestsage/quiz-backend:$VERSION
         docker build ./frontend -t ghcr.io/rosiestsage/quiz-frontend:$VERSION
-        docker push ghcr.io/rosiestsag/quiz-backend:$VERSION
+        docker push ghcr.io/rosiestsage/quiz-backend:$VERSION
         docker push ghcr.io/rosiestsage/quiz-frontend:$VERSION
